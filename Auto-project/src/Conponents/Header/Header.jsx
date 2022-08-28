@@ -5,7 +5,7 @@ function Header(){
     
     return(
         <header className="header-container">
-            <img className="img" src={"./img/images.jpg"} />
+            <h1>LUXURY CAR</h1>
             <ul>
                 <li><a href ="#">HOME</a></li>
                 <li><a href ="#">ABOUT</a></li>

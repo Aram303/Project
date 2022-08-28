@@ -3,6 +3,9 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
   
 @keyframes gradient {
@@ -17,6 +20,12 @@
     }
 }
 
+.header-container > h1{
+  font-size: 37px;
+  background-color: #dedede1f;
+  padding: 5px;
+}
+
 .header-container > ul{
   list-style: none;
   display: flex;
@@ -24,7 +33,10 @@
 }
 
 .header-container > ul> li{
-  margin-right: 20px;   
+  margin-right: 25px;  
+  border-bottom: 1px solid #ffffff38;
+  padding: 0 20px 12px 20px;
+  cursor: pointer;
 }
 
 .header-container > ul > li > a{
@@ -34,6 +46,10 @@
   font-weight: lighter;
 }
 
-.header-container > ul > li > a:hover{
+.header-container > ul > li:hover{
+  border: none;
   border-bottom: 1px solid white;
+  /* width: 135px;
+  height: 20px; */
+  text-align: center;
 }
